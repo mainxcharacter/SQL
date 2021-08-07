@@ -55,6 +55,7 @@ WHERE 생일 BETWEEN #01/01/69# AND #12/31/73#;
 <pre><code>SELECT *
 FROM 사원
 WHERE 주소 IS NULL;
+</code></pre>
 
 <h1>정렬 검색</h1>
 OREDER BY 절에 특정 속성을 지정하여 지정된 속성으로 자료를 정렬하여 검색한다.
