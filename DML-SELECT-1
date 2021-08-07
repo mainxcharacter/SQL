@@ -1,6 +1,7 @@
 #기본검색 SELECT
 
 예제1. <사원>테이블의 모든 튜플을 검색하시오
+
 <pre><code>
 SELECT *FROM 사원;
 SELECT 사원* FROM 사원;
@@ -21,3 +22,12 @@ FROM 사원;
 
 #조건 지정 검색 WHERE
 WHERE절에 조건을 지정하여 조건에 만족하는 튜플만 검색한다!
+
+예제1. <사원>테이블에서 '기획'부의 모든 튜플을 검색하시오.
+<pre><code>
+SELECT *
+FROM 사원
+WHERE 부서='기획'
+</code></pre>
+
+d
